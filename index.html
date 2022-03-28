@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Sport Betting</title>
+</head>
+<body>
+    <form action="" id="form-X">
+        <table>
+          <caption title="Useful for both Negative ‘−’ and / or Positive ‘+’ Money Lines including Single Straight Bets!">
+            Bet Calculator
+          </caption>
+          <thead>
+            <tr>
+              <td>Bet Amount : </td>
+              <td><input type="number" step="10" value="0" name="betAmount" min="0"></td>
+              <td><button type="reset">&empty;</button></td>   
+            </tr>
+            <tr><td colspan="2">Teams Money Lines</td>  <td><button id="New-Line">+</button></td></tr>
+            <tr>
+              <td contenteditable spellcheck="false">...</td>
+              <td><input type="number" step="10" value="0"></td>
+              <td><button>&#8722;</button></td>
+            </tr>
+          </thead>
+          <tbody>
+          </tbody>
+          <tfoot>
+            <tr>
+              <td>Total Payout : </td>
+              <td colspan="2"> </td>
+            </tr>
+          </tfoot>
+        </table>
+      </form>
+</body>
+<script src="style.js"></script>
+</html>
