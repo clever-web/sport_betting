@@ -30,3 +30,4 @@ tBody.onclick=e=>
   betCalculator()
   }
 xForm.oninput = betCalculator;
+// jjjjjj
